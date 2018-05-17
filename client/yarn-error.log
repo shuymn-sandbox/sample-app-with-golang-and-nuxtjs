@@ -1,0 +1,60 @@
+Arguments: 
+  /Users/shuymn/.anyenv/envs/nodenv/versions/8.11.2/bin/node /usr/local/Cellar/yarn/1.6.0/libexec/bin/yarn.js add @nuxtjs/axious
+
+PATH: 
+  /Users/shuymn/.anyenv/envs/nodenv/versions/8.11.2/bin:/Users/shuymn/.anyenv/envs/nodenv/libexec:/Users/shuymn/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/Users/shuymn/.anyenv/envs/nodenv/plugins/node-build/bin:/Users/shuymn/.anyenv/envs/rbenv/shims:/Users/shuymn/.anyenv/envs/rbenv/bin:/Users/shuymn/.anyenv/envs/pyenv/shims:/Users/shuymn/.anyenv/envs/pyenv/bin:/Users/shuymn/.anyenv/envs/phpenv/shims:/Users/shuymn/.anyenv/envs/phpenv/bin:/Users/shuymn/.anyenv/envs/nodenv/shims:/Users/shuymn/.anyenv/envs/nodenv/bin:/Users/shuymn/.anyenv/envs/jenv/shims:/Users/shuymn/.anyenv/envs/jenv/bin:/Users/shuymn/.anyenv/envs/goenv/shims:/Users/shuymn/.anyenv/envs/goenv/bin:/Users/shuymn/.zplug/repos/zplug/zplug/bin:/Users/shuymn/.zplug/bin:/usr/local/opt/macvim-kaoriya/bin:/Users/shuymn/.anyenv/bin:/Users/shuymn/.local/bin:/usr/local/sbin:/usr/local/bin:/Users/shuymn/.anyenv/envs/rbenv/shims:/Users/shuymn/.anyenv/envs/rbenv/bin:/Users/shuymn/.anyenv/envs/pyenv/shims:/Users/shuymn/.anyenv/envs/pyenv/bin:/Users/shuymn/.anyenv/envs/phpenv/shims:/Users/shuymn/.anyenv/envs/phpenv/bin:/Users/shuymn/.anyenv/envs/nodenv/shims:/Users/shuymn/.anyenv/envs/nodenv/bin:/Users/shuymn/.anyenv/envs/jenv/shims:/Users/shuymn/.anyenv/envs/jenv/bin:/Users/shuymn/.anyenv/envs/goenv/shims:/Users/shuymn/.anyenv/envs/goenv/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shuymn/Trajectory/go/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.11.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@nuxtjs%2faxious: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:65327:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:133155:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:134138:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:134058:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "client",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "shuymn <mail@shuymn.me>",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.2.1",
+      "eslint": "^4.15.0",
+      "eslint-friendly-formatter": "^3.0.0",
+      "eslint-loader": "^1.7.1",
+      "eslint-plugin-vue": "^4.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
